@@ -19,6 +19,9 @@ This ranks total reports by state. **Encodings:** x=reports, y=state (sorted -x)
 
 ---
 
+<div id="c1"></div>
+<div id="c2"></div>
+
 ### Links
 - **The Data:** <https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv>  
 - **The Analysis (Notebook on GitHub):** https://github.com/Miaoyuan12138/Miaoyuan12138.github.io/blob/main/Workbook.ipynb
@@ -27,6 +30,6 @@ This ranks total reports by state. **Encodings:** x=reports, y=state (sorted -x)
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 <script>
-vegaEmbed('#c1', '{{ "/assets/vegaplots/bigfoot_lines.json" | relative_url }}', {actions:false});
-vegaEmbed('#c2', '{{ "/assets/vegaplots/bigfoot_bars.json" | relative_url }}', {actions:false});
+  vegaEmbed('#c1', '{{ "/assets/vegaplots/bigfoot_lines.json" | relative_url }}', {actions:false});
+  vegaEmbed('#c2', '{{ "/assets/vegaplots/bigfoot_bars.json" | relative_url }}', {actions:false});
 </script>
