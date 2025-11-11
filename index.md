@@ -8,7 +8,7 @@ title: HW5 — Altair to Vega-Lite (Bigfoot)
 <div id="c1"></div>
 
 **Plot 1 – Multiline over time (interactive).**  
-This chart shows yearly Bigfoot report counts for the top eight U.S. states. **Encodings:** x=Year (temporal), y=reports (quantitative, symlog), color=state (nominal). I use a dropdown selection to condition **size** (5 vs 1) and opacity to highlight one state at a time. **Transformations:** parsed dates, created `Year`, grouped by `Year,state`, chose top states by total counts. **Colormap:** `sinebow` gives distinct hues without implying order. **Interactivity:** the dropdown focuses attention and reduces overplotting.
+This chart shows yearly Bigfoot report counts for the top eight U.S. states. **Encodings:** x=Year (temporal), y=reports (quantitative, symlog), color=state (nominal). I use a dropdown selection to condition **size** (5 vs 1) and opacity to highlight one state at a time. **Transformations:** parsed dates, created `Year`, grouped by `Year,state`, chose top states by total counts. **Colormap:** `sinebow` gives distinct hues without implying order. **Interactivity:** I use a `selection_point` bound to a dropdown named “State:”. The selected state gets a thicker line (size=5, opacity=1) and others are thinner (size=1, opacity=0.35). The default selection is “California”, and this makes comparisons clear when many lines overlap.
 
 ---
 
