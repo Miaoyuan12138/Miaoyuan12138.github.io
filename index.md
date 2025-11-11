@@ -24,7 +24,7 @@ This ranks total reports by state. **Encodings:** x=reports, y=state (sorted -x)
 
 ### Links
 - **The Data:** <https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv>  
-- **The Analysis (Notebook on GitHub):** https://github.com/Miaoyuan12138/Miaoyuan12138.github.io/blob/main/Workbook.ipynb
+- **The Analysis (Notebook on GitHub):** <https://github.com/Miaoyuan12138/Miaoyuan12138.github.io/blob/main/Workbook.ipynb>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
